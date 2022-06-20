@@ -55,3 +55,47 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.211) 0px 15px 25px,
     rgba(0, 0, 0, 0.221) 0px 5px 10px;
 }
+footer {
+  background: radial-gradient(circle, #c3fa03 0%, #0018fe 50%, #f73e0c 100%);
+  color: rgb(76, 72, 72);
+  border: 5px solid black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+  margin-top: 2rem;
+  margin: 0px 65px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* .btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #6a9113 0%,
+    #6b0770 51%,
+    #6a9113 100%
+  );
+  justify-content: center;
+  margin: auto;
+  bottom: 0;
+  cursor: pointer;
+  align-items: center;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: flex;
+} */
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

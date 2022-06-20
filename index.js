@@ -1,5 +1,11 @@
 const containerEl = document.querySelector(".container");
+// const btnEl = document.querySelector(".btn-grad");
 
+// btnEl.addEventListener("click", () => {
+//   // console.log("clicked");
+//   colorCodeNum = 50;
+//   addNewImages();
+// });
 for (let index = 0; index < 100; index++) {
   const colorContainerEl = document.createElement("div");
   colorContainerEl.classList.add("color-container");
